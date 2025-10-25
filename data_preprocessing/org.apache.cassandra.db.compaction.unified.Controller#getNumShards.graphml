@@ -1,0 +1,347 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="callee_signature" for="edge" attr.name="callee_signature" attr.type="string" />
+  <key id="caller_signature" for="edge" attr.name="caller_signature" attr.type="string" />
+  <key id="relation" for="edge" attr.name="relation" attr.type="string" />
+  <key id="is_smell" for="node" attr.name="is_smell" attr.type="boolean" />
+  <key id="method_parameters" for="node" attr.name="method_parameters" attr.type="string" />
+  <key id="method_name" for="node" attr.name="method_name" attr.type="string" />
+  <key id="hasjavadoc" for="node" attr.name="hasjavadoc" attr.type="boolean" />
+  <key id="methodsinvokedindirectlocalqty" for="node" attr.name="methodsinvokedindirectlocalqty" attr.type="long" />
+  <key id="methodsinvokedlocalqty" for="node" attr.name="methodsinvokedlocalqty" attr.type="long" />
+  <key id="methodsinvokedqty" for="node" attr.name="methodsinvokedqty" attr.type="long" />
+  <key id="parametersqty" for="node" attr.name="parametersqty" attr.type="long" />
+  <key id="returnsqty" for="node" attr.name="returnsqty" attr.type="long" />
+  <key id="line" for="node" attr.name="line" attr.type="long" />
+  <key id="constructor" for="node" attr.name="constructor" attr.type="boolean" />
+  <key id="method" for="node" attr.name="method" attr.type="string" />
+  <key id="return_type" for="node" attr.name="return_type" attr.type="string" />
+  <key id="version" for="node" attr.name="version" attr.type="string" />
+  <key id="project" for="node" attr.name="project" attr.type="string" />
+  <key id="logstatementsqty" for="node" attr.name="logstatementsqty" attr.type="long" />
+  <key id="modifiers" for="node" attr.name="modifiers" attr.type="long" />
+  <key id="uniquewordsqty" for="node" attr.name="uniquewordsqty" attr.type="long" />
+  <key id="lambdasqty" for="node" attr.name="lambdasqty" attr.type="long" />
+  <key id="innerclassesqty" for="node" attr.name="innerclassesqty" attr.type="long" />
+  <key id="anonymousclassesqty" for="node" attr.name="anonymousclassesqty" attr.type="long" />
+  <key id="maxnestedblocksqty" for="node" attr.name="maxnestedblocksqty" attr.type="long" />
+  <key id="variablesqty" for="node" attr.name="variablesqty" attr.type="long" />
+  <key id="mathoperationsqty" for="node" attr.name="mathoperationsqty" attr.type="long" />
+  <key id="assignmentsqty" for="node" attr.name="assignmentsqty" attr.type="long" />
+  <key id="numbersqty" for="node" attr.name="numbersqty" attr.type="long" />
+  <key id="stringliteralsqty" for="node" attr.name="stringliteralsqty" attr.type="long" />
+  <key id="parenthesizedexpsqty" for="node" attr.name="parenthesizedexpsqty" attr.type="long" />
+  <key id="trycatchqty" for="node" attr.name="trycatchqty" attr.type="long" />
+  <key id="comparisonsqty" for="node" attr.name="comparisonsqty" attr.type="long" />
+  <key id="loopqty" for="node" attr.name="loopqty" attr.type="long" />
+  <key id="returnqty" for="node" attr.name="returnqty" attr.type="long" />
+  <key id="loc" for="node" attr.name="loc" attr.type="long" />
+  <key id="nosi" for="node" attr.name="nosi" attr.type="long" />
+  <key id="synchronizedfieldsqty" for="node" attr.name="synchronizedfieldsqty" attr.type="long" />
+  <key id="finalfieldsqty" for="node" attr.name="finalfieldsqty" attr.type="long" />
+  <key id="defaultfieldsqty" for="node" attr.name="defaultfieldsqty" attr.type="long" />
+  <key id="protectedfieldsqty" for="node" attr.name="protectedfieldsqty" attr.type="long" />
+  <key id="privatefieldsqty" for="node" attr.name="privatefieldsqty" attr.type="long" />
+  <key id="publicfieldsqty" for="node" attr.name="publicfieldsqty" attr.type="long" />
+  <key id="staticfieldsqty" for="node" attr.name="staticfieldsqty" attr.type="long" />
+  <key id="totalfieldsqty" for="node" attr.name="totalfieldsqty" attr.type="long" />
+  <key id="synchronizedmethodsqty" for="node" attr.name="synchronizedmethodsqty" attr.type="long" />
+  <key id="finalmethodsqty" for="node" attr.name="finalmethodsqty" attr.type="long" />
+  <key id="abstractmethodsqty" for="node" attr.name="abstractmethodsqty" attr.type="long" />
+  <key id="visiblemethodsqty" for="node" attr.name="visiblemethodsqty" attr.type="long" />
+  <key id="defaultmethodsqty" for="node" attr.name="defaultmethodsqty" attr.type="long" />
+  <key id="protectedmethodsqty" for="node" attr.name="protectedmethodsqty" attr.type="long" />
+  <key id="privatemethodsqty" for="node" attr.name="privatemethodsqty" attr.type="long" />
+  <key id="publicmethodsqty" for="node" attr.name="publicmethodsqty" attr.type="long" />
+  <key id="staticmethodsqty" for="node" attr.name="staticmethodsqty" attr.type="long" />
+  <key id="totalmethodsqty" for="node" attr.name="totalmethodsqty" attr.type="long" />
+  <key id="lcc" for="node" attr.name="lcc" attr.type="double" />
+  <key id="tcc" for="node" attr.name="tcc" attr.type="double" />
+  <key id="lcom*" for="node" attr.name="lcom*" attr.type="double" />
+  <key id="lcom" for="node" attr.name="lcom" attr.type="long" />
+  <key id="rfc" for="node" attr.name="rfc" attr.type="long" />
+  <key id="noc" for="node" attr.name="noc" attr.type="long" />
+  <key id="dit" for="node" attr.name="dit" attr.type="long" />
+  <key id="wmc" for="node" attr.name="wmc" attr.type="long" />
+  <key id="fanout" for="node" attr.name="fanout" attr.type="long" />
+  <key id="fanin" for="node" attr.name="fanin" attr.type="long" />
+  <key id="cbomodified" for="node" attr.name="cbomodified" attr.type="long" />
+  <key id="cbo" for="node" attr.name="cbo" attr.type="long" />
+  <key id="class" for="node" attr.name="class" attr.type="string" />
+  <key id="file" for="node" attr.name="file" attr.type="string" />
+  <key id="label" for="node" attr.name="label" attr.type="string" />
+  <key id="type" for="node" attr.name="type" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="org.apache.cassandra.db.compaction.unified.Controller">
+      <data key="type">class</data>
+      <data key="label">Controller</data>
+      <data key="file">/model/lxj/actionableCS/cassandra/cassandra-cassandra-5.0.0/src/java/org/apache/cassandra/db/compaction/unified/Controller.java</data>
+      <data key="class">org.apache.cassandra.db.compaction.unified.Controller</data>
+      <data key="cbo">10</data>
+      <data key="cbomodified">17</data>
+      <data key="fanin">7</data>
+      <data key="fanout">10</data>
+      <data key="wmc">79</data>
+      <data key="dit">1</data>
+      <data key="noc">0</data>
+      <data key="rfc">60</data>
+      <data key="lcom">164</data>
+      <data key="lcom*">0.9082464</data>
+      <data key="tcc">0.0</data>
+      <data key="lcc">0.0</data>
+      <data key="totalmethodsqty">21</data>
+      <data key="staticmethodsqty">4</data>
+      <data key="publicmethodsqty">20</data>
+      <data key="privatemethodsqty">0</data>
+      <data key="protectedmethodsqty">0</data>
+      <data key="defaultmethodsqty">1</data>
+      <data key="visiblemethodsqty">21</data>
+      <data key="abstractmethodsqty">0</data>
+      <data key="finalmethodsqty">0</data>
+      <data key="synchronizedmethodsqty">0</data>
+      <data key="totalfieldsqty">41</data>
+      <data key="staticfieldsqty">27</data>
+      <data key="publicfieldsqty">2</data>
+      <data key="privatefieldsqty">5</data>
+      <data key="protectedfieldsqty">14</data>
+      <data key="defaultfieldsqty">20</data>
+      <data key="finalfieldsqty">39</data>
+      <data key="synchronizedfieldsqty">0</data>
+      <data key="nosi">50</data>
+      <data key="loc">292</data>
+      <data key="returnqty">25</data>
+      <data key="loopqty">2</data>
+      <data key="comparisonsqty">13</data>
+      <data key="trycatchqty">8</data>
+      <data key="parenthesizedexpsqty">10</data>
+      <data key="stringliteralsqty">58</data>
+      <data key="numbersqty">43</data>
+      <data key="assignmentsqty">99</data>
+      <data key="mathoperationsqty">34</data>
+      <data key="variablesqty">77</data>
+      <data key="maxnestedblocksqty">3</data>
+      <data key="anonymousclassesqty">0</data>
+      <data key="innerclassesqty">0</data>
+      <data key="lambdasqty">0</data>
+      <data key="uniquewordsqty">430</data>
+      <data key="modifiers">1</data>
+      <data key="logstatementsqty">5</data>
+      <data key="project">cassandra</data>
+      <data key="version">5.0.0</data>
+    </node>
+    <node id="org.apache.cassandra.utils.FBUtilities">
+      <data key="type">class</data>
+      <data key="label">FBUtilities</data>
+      <data key="file">/model/lxj/actionableCS/cassandra/cassandra-cassandra-5.0.0/src/java/org/apache/cassandra/utils/FBUtilities.java</data>
+      <data key="class">org.apache.cassandra.utils.FBUtilities</data>
+      <data key="cbo">43</data>
+      <data key="cbomodified">80</data>
+      <data key="fanin">37</data>
+      <data key="fanout">43</data>
+      <data key="wmc">218</data>
+      <data key="dit">2</data>
+      <data key="noc">0</data>
+      <data key="rfc">203</data>
+      <data key="lcom">3233</data>
+      <data key="lcom*">0.97242844</data>
+      <data key="tcc">0.0</data>
+      <data key="lcc">0.0</data>
+      <data key="totalmethodsqty">82</data>
+      <data key="staticmethodsqty">82</data>
+      <data key="publicmethodsqty">78</data>
+      <data key="privatemethodsqty">1</data>
+      <data key="protectedmethodsqty">0</data>
+      <data key="defaultmethodsqty">3</data>
+      <data key="visiblemethodsqty">82</data>
+      <data key="abstractmethodsqty">0</data>
+      <data key="finalmethodsqty">0</data>
+      <data key="synchronizedmethodsqty">0</data>
+      <data key="totalfieldsqty">23</data>
+      <data key="staticfieldsqty">23</data>
+      <data key="publicfieldsqty">6</data>
+      <data key="privatefieldsqty">13</data>
+      <data key="protectedfieldsqty">0</data>
+      <data key="defaultfieldsqty">4</data>
+      <data key="finalfieldsqty">14</data>
+      <data key="synchronizedfieldsqty">0</data>
+      <data key="nosi">106</data>
+      <data key="loc">742</data>
+      <data key="returnqty">87</data>
+      <data key="loopqty">13</data>
+      <data key="comparisonsqty">46</data>
+      <data key="trycatchqty">25</data>
+      <data key="parenthesizedexpsqty">14</data>
+      <data key="stringliteralsqty">100</data>
+      <data key="numbersqty">67</data>
+      <data key="assignmentsqty">155</data>
+      <data key="mathoperationsqty">53</data>
+      <data key="variablesqty">106</data>
+      <data key="maxnestedblocksqty">5</data>
+      <data key="anonymousclassesqty">1</data>
+      <data key="innerclassesqty">1</data>
+      <data key="lambdasqty">1</data>
+      <data key="uniquewordsqty">591</data>
+      <data key="modifiers">1</data>
+      <data key="logstatementsqty">8</data>
+      <data key="project">cassandra</data>
+      <data key="version">5.0.0</data>
+    </node>
+    <node id="org.apache.cassandra.db.compaction.unified.Controller#getNumShards(double)">
+      <data key="type">method</data>
+      <data key="label">getNumShards(double)</data>
+      <data key="return_type">int</data>
+      <data key="class">org.apache.cassandra.db.compaction.unified.Controller</data>
+      <data key="method">getNumShards/1[double]</data>
+      <data key="constructor">False</data>
+      <data key="line">265</data>
+      <data key="cbo">0</data>
+      <data key="cbomodified">2</data>
+      <data key="fanin">2</data>
+      <data key="fanout">0</data>
+      <data key="wmc">11</data>
+      <data key="rfc">7</data>
+      <data key="loc">37</data>
+      <data key="returnsqty">4</data>
+      <data key="variablesqty">7</data>
+      <data key="parametersqty">1</data>
+      <data key="methodsinvokedqty">7</data>
+      <data key="methodsinvokedlocalqty">0</data>
+      <data key="methodsinvokedindirectlocalqty">0</data>
+      <data key="loopqty">0</data>
+      <data key="comparisonsqty">2</data>
+      <data key="trycatchqty">0</data>
+      <data key="parenthesizedexpsqty">6</data>
+      <data key="stringliteralsqty">18</data>
+      <data key="numbersqty">9</data>
+      <data key="assignmentsqty">13</data>
+      <data key="mathoperationsqty">16</data>
+      <data key="maxnestedblocksqty">3</data>
+      <data key="anonymousclassesqty">0</data>
+      <data key="innerclassesqty">0</data>
+      <data key="lambdasqty">0</data>
+      <data key="uniquewordsqty">118</data>
+      <data key="modifiers">1</data>
+      <data key="logstatementsqty">4</data>
+      <data key="hasjavadoc">True</data>
+      <data key="method_name">getNumShards</data>
+      <data key="method_parameters">double</data>
+      <data key="project">cassandra</data>
+      <data key="version">5.0.0</data>
+      <data key="is_smell">True</data>
+    </node>
+    <node id="org.apache.cassandra.utils.FBUtilities#prettyPrintBinary(double,java.lang.String,java.lang.String)">
+      <data key="type">method</data>
+      <data key="label">prettyPrintBinary(double,java.lang.String,java.lang.String)</data>
+      <data key="return_type">java.lang.String</data>
+      <data key="class">org.apache.cassandra.utils.FBUtilities</data>
+      <data key="method">prettyPrintBinary/3[double,java.lang.String,java.lang.String]</data>
+      <data key="constructor">False</data>
+      <data key="line">908</data>
+      <data key="cbo">0</data>
+      <data key="cbomodified">1</data>
+      <data key="fanin">1</data>
+      <data key="fanout">0</data>
+      <data key="wmc">6</data>
+      <data key="rfc">6</data>
+      <data key="loc">6</data>
+      <data key="returnsqty">3</data>
+      <data key="variablesqty">1</data>
+      <data key="parametersqty">3</data>
+      <data key="methodsinvokedqty">6</data>
+      <data key="methodsinvokedlocalqty">0</data>
+      <data key="methodsinvokedindirectlocalqty">0</data>
+      <data key="loopqty">0</data>
+      <data key="comparisonsqty">2</data>
+      <data key="trycatchqty">0</data>
+      <data key="parenthesizedexpsqty">0</data>
+      <data key="stringliteralsqty">3</data>
+      <data key="numbersqty">6</data>
+      <data key="assignmentsqty">1</data>
+      <data key="mathoperationsqty">4</data>
+      <data key="maxnestedblocksqty">2</data>
+      <data key="anonymousclassesqty">0</data>
+      <data key="innerclassesqty">0</data>
+      <data key="lambdasqty">0</data>
+      <data key="uniquewordsqty">58</data>
+      <data key="modifiers">9</data>
+      <data key="logstatementsqty">0</data>
+      <data key="hasjavadoc">True</data>
+      <data key="method_name">prettyPrintBinary</data>
+      <data key="method_parameters">double;java.lang.String;java.lang.String</data>
+      <data key="project">cassandra</data>
+      <data key="version">5.0.0</data>
+      <data key="is_smell">False</data>
+    </node>
+    <node id="org.apache.cassandra.utils.FBUtilities#prettyPrintBinary(double;java.lang.String;java.lang.String)">
+      <data key="type">method</data>
+      <data key="label">prettyPrintBinary(double;java.lang.String;java.lang.String)</data>
+      <data key="return_type">java.lang.String</data>
+      <data key="class">org.apache.cassandra.utils.FBUtilities</data>
+      <data key="method">prettyPrintBinary/3[double,java.lang.String,java.lang.String]</data>
+      <data key="constructor">False</data>
+      <data key="line">908</data>
+      <data key="cbo">0</data>
+      <data key="cbomodified">1</data>
+      <data key="fanin">1</data>
+      <data key="fanout">0</data>
+      <data key="wmc">6</data>
+      <data key="rfc">6</data>
+      <data key="loc">6</data>
+      <data key="returnsqty">3</data>
+      <data key="variablesqty">1</data>
+      <data key="parametersqty">3</data>
+      <data key="methodsinvokedqty">6</data>
+      <data key="methodsinvokedlocalqty">0</data>
+      <data key="methodsinvokedindirectlocalqty">0</data>
+      <data key="loopqty">0</data>
+      <data key="comparisonsqty">2</data>
+      <data key="trycatchqty">0</data>
+      <data key="parenthesizedexpsqty">0</data>
+      <data key="stringliteralsqty">3</data>
+      <data key="numbersqty">6</data>
+      <data key="assignmentsqty">1</data>
+      <data key="mathoperationsqty">4</data>
+      <data key="maxnestedblocksqty">2</data>
+      <data key="anonymousclassesqty">0</data>
+      <data key="innerclassesqty">0</data>
+      <data key="lambdasqty">0</data>
+      <data key="uniquewordsqty">58</data>
+      <data key="modifiers">9</data>
+      <data key="logstatementsqty">0</data>
+      <data key="hasjavadoc">True</data>
+      <data key="method_name">prettyPrintBinary</data>
+      <data key="method_parameters">double;java.lang.String;java.lang.String</data>
+      <data key="project">cassandra</data>
+      <data key="version">5.0.0</data>
+      <data key="is_smell">False</data>
+    </node>
+    <edge source="org.apache.cassandra.db.compaction.unified.Controller" target="org.apache.cassandra.db.compaction.unified.Controller#getNumShards(double)">
+      <data key="relation">belongs_to</data>
+    </edge>
+    <edge source="org.apache.cassandra.utils.FBUtilities" target="org.apache.cassandra.utils.FBUtilities#prettyPrintBinary(double,java.lang.String,java.lang.String)">
+      <data key="relation">belongs_to</data>
+    </edge>
+    <edge source="org.apache.cassandra.utils.FBUtilities" target="org.apache.cassandra.utils.FBUtilities#prettyPrintBinary(double;java.lang.String;java.lang.String)">
+      <data key="relation">belongs_to</data>
+    </edge>
+    <edge source="org.apache.cassandra.db.compaction.unified.Controller#getNumShards(double)" target="org.apache.cassandra.db.compaction.unified.Controller">
+      <data key="relation">belongs_to</data>
+    </edge>
+    <edge source="org.apache.cassandra.db.compaction.unified.Controller#getNumShards(double)" target="org.apache.cassandra.utils.FBUtilities#prettyPrintBinary(double,java.lang.String,java.lang.String)">
+      <data key="relation">calls</data>
+      <data key="caller_signature">int getNumShards(double)</data>
+      <data key="callee_signature">java.lang.String prettyPrintBinary(double,java.lang.String,java.lang.String)</data>
+    </edge>
+    <edge source="org.apache.cassandra.utils.FBUtilities#prettyPrintBinary(double,java.lang.String,java.lang.String)" target="org.apache.cassandra.utils.FBUtilities">
+      <data key="relation">belongs_to</data>
+    </edge>
+    <edge source="org.apache.cassandra.utils.FBUtilities#prettyPrintBinary(double;java.lang.String;java.lang.String)" target="org.apache.cassandra.utils.FBUtilities">
+      <data key="relation">belongs_to</data>
+    </edge>
+    <edge source="org.apache.cassandra.utils.FBUtilities#prettyPrintBinary(double;java.lang.String;java.lang.String)" target="org.apache.cassandra.utils.FBUtilities#prettyPrintBinary(double;java.lang.String;java.lang.String)">
+      <data key="relation">calls</data>
+      <data key="caller_signature">java.lang.String prettyPrintBinary(double;java.lang.String;java.lang.String)</data>
+      <data key="callee_signature">java.lang.String prettyPrintBinary(double;java.lang.String;java.lang.String)</data>
+    </edge>
+  </graph>
+</graphml>
