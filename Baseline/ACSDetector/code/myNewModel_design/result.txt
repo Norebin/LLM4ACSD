@@ -1,0 +1,135 @@
+FullModel0
+fusion matrix(TP, FP, FN, TN): 3 29 215 1709
+macro: 0.491 0.4985 0.4787
+binary: 0.0938 0.0138 0.024 0.0167 0.5567
+FullModel10
+fusion matrix(TP, FP, FN, TN): 130 318 88 1420
+macro: 0.6159 0.7067 0.6327
+binary: 0.2902 0.5963 0.3904 0.183 0.7826
+FullModel20
+fusion matrix(TP, FP, FN, TN): 141 389 77 1349
+macro: 0.606 0.7115 0.6149
+binary: 0.266 0.6468 0.377 0.2238 0.7749
+FullModel30
+fusion matrix(TP, FP, FN, TN): 102 198 116 1540
+macro: 0.635 0.677 0.6507
+binary: 0.34 0.4679 0.3938 0.1139 0.7659
+FullModel40
+fusion matrix(TP, FP, FN, TN): 96 151 122 1587
+macro: 0.6586 0.6767 0.6669
+binary: 0.3887 0.4404 0.4129 0.0869 0.7645
+FullModel50
+fusion matrix(TP, FP, FN, TN): 69 102 149 1636
+macro: 0.66 0.6289 0.6418
+binary: 0.4035 0.3165 0.3548 0.0587 0.76
+FullModel60
+fusion matrix(TP, FP, FN, TN): 94 149 124 1589
+macro: 0.6572 0.6727 0.6644
+binary: 0.3868 0.4312 0.4078 0.0857 0.7656
+FullModel70
+fusion matrix(TP, FP, FN, TN): 141 384 77 1354
+macro: 0.6074 0.7129 0.617
+binary: 0.2686 0.6468 0.3795 0.2209 0.755
+FullModel80
+fusion matrix(TP, FP, FN, TN): 74 112 144 1626
+macro: 0.6582 0.6375 0.6467
+binary: 0.3978 0.3394 0.3663 0.0644 0.7548
+FullModel90
+fusion matrix(TP, FP, FN, TN): 57 91 161 1647
+macro: 0.648 0.6046 0.6202
+binary: 0.3851 0.2615 0.3115 0.0524 0.7484
+FullModel
+fusion matrix(TP, FP, FN, TN): 74 95 144 1643
+macro: 0.6786 0.6424 0.6573
+binary: 0.4379 0.3394 0.3824 0.0547 0.766
+FullModel0
+fusion matrix(TP, FP, FN, TN): 93 152 125 1586
+macro: 0.6533 0.6696 0.6607
+binary: 0.3796 0.4266 0.4017 0.0875 0.7466
+FullModel10
+fusion matrix(TP, FP, FN, TN): 76 113 142 1625
+macro: 0.6609 0.6418 0.6504
+binary: 0.4021 0.3486 0.3735 0.065 0.7457
+FullModel20
+fusion matrix(TP, FP, FN, TN): 99 176 119 1562
+macro: 0.6446 0.6764 0.6577
+binary: 0.36 0.4541 0.4016 0.1013 0.7566
+FullModel30
+fusion matrix(TP, FP, FN, TN): 71 106 147 1632
+macro: 0.6592 0.6323 0.6438
+binary: 0.4011 0.3257 0.3595 0.061 0.7592
+FullModel40
+fusion matrix(TP, FP, FN, TN): 79 160 139 1578
+macro: 0.6248 0.6352 0.6296
+binary: 0.3305 0.3624 0.3457 0.0921 0.7384
+FullModel50
+fusion matrix(TP, FP, FN, TN): 44 119 174 1619
+macro: 0.5864 0.5667 0.574
+binary: 0.2699 0.2018 0.231 0.0685 0.7142
+FullModel60
+fusion matrix(TP, FP, FN, TN): 61 108 157 1630
+macro: 0.6365 0.6088 0.62
+binary: 0.3609 0.2798 0.3152 0.0621 0.7387
+FullModel70
+fusion matrix(TP, FP, FN, TN): 62 101 156 1637
+macro: 0.6467 0.6131 0.6263
+binary: 0.3804 0.2844 0.3255 0.0581 0.7393
+FullModel80
+fusion matrix(TP, FP, FN, TN): 67 101 151 1637
+macro: 0.6572 0.6246 0.6378
+binary: 0.3988 0.3073 0.3472 0.0581 0.7489
+FullModel90
+fusion matrix(TP, FP, FN, TN): 39 57 179 1681
+macro: 0.655 0.5731 0.5914
+binary: 0.4062 0.1789 0.2484 0.0328 0.7327
+FullModel
+fusion matrix(TP, FP, FN, TN): 46 65 172 1673
+macro: 0.6606 0.5868 0.6067
+binary: 0.4144 0.211 0.2796 0.0374 0.7535
+FullModel0
+fusion matrix(TP, FP, FN, TN): 80 132 138 1606
+macro: 0.6491 0.6455 0.6473
+binary: 0.3774 0.367 0.3721 0.0759 0.7404
+FullModel10
+fusion matrix(TP, FP, FN, TN): 72 135 146 1603
+macro: 0.6322 0.6263 0.6291
+binary: 0.3478 0.3303 0.3388 0.0777 0.7442
+FullModel20
+fusion matrix(TP, FP, FN, TN): 70 96 148 1642
+macro: 0.6695 0.6329 0.6477
+binary: 0.4217 0.3211 0.3646 0.0552 0.752
+FullModel30
+fusion matrix(TP, FP, FN, TN): 61 85 157 1653
+macro: 0.6655 0.6155 0.6335
+binary: 0.4178 0.2798 0.3352 0.0489 0.7466
+FullModel40
+fusion matrix(TP, FP, FN, TN): 65 99 153 1639
+macro: 0.6555 0.6206 0.6345
+binary: 0.3963 0.2982 0.3403 0.057 0.7518
+FullModel50
+fusion matrix(TP, FP, FN, TN): 93 167 125 1571
+macro: 0.642 0.6653 0.652
+binary: 0.3577 0.4266 0.3891 0.0961 0.7583
+FullModel60
+fusion matrix(TP, FP, FN, TN): 76 135 142 1603
+macro: 0.6394 0.6355 0.6374
+binary: 0.3602 0.3486 0.3543 0.0777 0.7493
+FullModel70
+fusion matrix(TP, FP, FN, TN): 77 138 141 1600
+macro: 0.6386 0.6369 0.6377
+binary: 0.3581 0.3532 0.3557 0.0794 0.7446
+FullModel80
+fusion matrix(TP, FP, FN, TN): 60 90 158 1648
+macro: 0.6563 0.6117 0.6281
+binary: 0.4 0.2752 0.3261 0.0518 0.7419
+FullModel90
+fusion matrix(TP, FP, FN, TN): 67 111 151 1627
+macro: 0.6457 0.6217 0.6319
+binary: 0.3764 0.3073 0.3384 0.0639 0.734
+FullModel
+fusion matrix(TP, FP, FN, TN): 55 102 163 1636
+macro: 0.6299 0.5968 0.6092
+binary: 0.3503 0.2523 0.2933 0.0587 0.7498
+[5.83333333e+01 8.73333333e+01 1.59666667e+02 1.65066667e+03
+ 6.56366667e-01 6.08666667e-01 6.24400000e-01 4.00866667e-01
+ 2.67566667e-01 3.18433333e-01 5.02666667e-02 7.56433333e-01]
