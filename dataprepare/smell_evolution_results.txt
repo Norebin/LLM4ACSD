@@ -1,0 +1,49 @@
+异味演变分析结果
+==================================================
+
+从 0.3.0-final 开始的异味追踪
+--------------------------------------------------
+异味 org.apache.cassandra.utils.FilterTest.testFalsePositives.Feature Envy 在 0.3.0-final 出现，在后续版本中仍存在
+
+异味 org.apache.cassandra.utils.BloomFilterTest.testOne.Feature Envy 在 0.3.0-final 出现，在后续版本中仍存在
+
+异味 org.apache.cassandra.db.CommitLog.writeCommitLogHeader.Feature Envy 在 0.3.0-final 出现，于 0.4.0-final 消失
+状态: 方法已变更但未明确解决
+相关提交记录:
+bb2b7eef43 name commitlog sync and writer threads.  patch by Sammy Yu; reviewed by jbellis for CASSANDRA-419
+489143566d add more (debug) logging to log recovery process.  patch by jbellis
+a2899de137 [fixed version] avoid opening multiple writers for the current file; the buffered nature of the global logWriter_ could cause problems patch by jbellis; reviewed for CASSANDRA-370 by Sammy Yu
+39d97f3892 Revert "CASSANDRA-370 avoid opening multiple writers for the current file; the buffered nature of the global logWriter_ could cause problems"
+12cbf75280 read(bytes) doesn't automatically throw EOFException if it reads less than asked for, so we need to check for that. patch by jbellis; reviewed by Sammy Yu for CASSANDRA-370
+5fd4ff7747 CASSANDRA-370 avoid opening multiple writers for the current file; the buffered nature of the global logWriter_ could cause problems patch by jbellis; reviewed by Sammy Yu for CASSANDRA-370
+e959b2c7f6 rename getInitialToken to getToken; it doesn't actually have anything to do w/ initial or default tokens.  log token on startup. patch by jbellis; reviewed by Sammy Yu for CASSANDRA-364
+007df950fc add missing while loop on periodic commitlog sync thread. patch by jbellis; reviewed by Chris Goffinet for CASSANDRA-367
+db18318c0a do timed sync if we're not doing it in the executor process()
+7158863861 Fixes for saving Token in SystemTable.  patch by jbellis and Sammy Yu for CASSANDRA-362
+7ea2c96852 add settings for buffer sizes; make unconfigurable ones more sane. patch by jbellis; reviewed by Jun Rao and Eric Evans for CASSANDRA-355
+88b0ee7be4 fix more findbugs complaints.  patch by Michael Greene; reviewed by jbellis for CASSANDRA-338
+0f95411c03 r/m SF.next(DataOutput) in favor of more-efficient IteratingRow. patch by jbellis; reviewed by Stu Hood for CASSANDRA-330
+22dc26bb9d make CommitLog use a raw BufferedRandomAccessFile instead of overloading AbstractWriter/IFileReader unnecessarily.  the set of AW features used by both CommitLog and SSTable was nil. patch by jbellis; reviewed by Stu Hood for CASSANDRA-330
+066ef58a96 run source files through dos2unix to standardize on \n line endings.  patch by Jeff Hodges; reviewed by Michael Greene for CASSANDRA-111
+574cb8f549 Use arrayblockingqueue in commitlog executor; this cleans up the code a bit (performance is unaffected since the writes and syncs are far more expensive than any queue ops) patch by jbellis; reviewed by Jun Rao for CASSANDRA-182
+35ff447ba4 custom CommitLogExecutorService that can fsync per multiple CL additions patch by jbellis; reviewed by Jun Rao for CASSANDRA-182
+88a30f182a move log ops to callables on a threadpoolexecutor instead of synchronizing.  this prepares the way to merge multiple add() calls into a single sync. patch by jbellis; reviewed by Jun Rao for CASSANDRA-182
+68bd9489b7 naive fsync-after-each-log-entry patch by jbellis; reviewed by Jun Rao for CASSANDRA-182
+5e5d8385be mv AbstractWriter to its own top-level class and remove redundant IFileWriter patch by jbellis; reviewed by Jun Rao for CASSANDRA-182
+bf9caf8feb handle incomplete CL entries on recover patch by jbellis; reviewed by Jun Rao for CASSANDRA-182
+8d4b161f09 close temporary logWriters to avoid leaking FD.  patch by Brandon Williams; reviewed by jbellis for CASSANDRA-313
+0172497ad2 minor code cleanups.  patch by Edward Ribeiro; reviewed by jbellis for CASSANDRA-273
+83b203e61e add test catching buggy update of header on flush; refactor so there is only one version of code doing those writes (the correct one). patch by jbellis; reviewed by Jun Rao for CASSANDRA-264
+f2cab86892 don't remove commitlog files when replay fails; you lose the chance to fix a bug, as well as your data. patch by jbellis; reviewed by Jun Rao for CASSANDRA-264
+0077af40fd add isDebugEnabled check for logger.debug for performance.  patch by goffinet; reviewed by jbellis for CASSANDRA-174
+d48d8fcbf7 r/m unused code dealing with sstables, and ConcurrentWriter / FastConcurrentWriter.  mmap is not faster than write() for sequential I/O, which is what the vast majority of our writes are.  mmap _does_ have an advantage when we seek back to the start of a commitlog segment to update the headers after memtable flush, but we do that infrequently enough that it's not worth the disadvantages (primarily, blowing up if we exceed the 4MB size). patch by jbellis; reviewed by Eric Evans for CASSANDRA-224
+509cbb85de remove table_ from CommitLog and add multitable tests. patch by jbellis; reviewed by goffinet for CASSANDRA-79
+3673e28186 multitable support.
+9aeef94db8 Pass and write table parameter as needed throughout the codebase to add multitable support. (Many places cheated and just assumed that tables.get(0) was the only table.) Patch builds but does not yet pass tests.
+1a66c10695 more CommitLog cleanup.  patch by jbellis; reviewed by Jun Rao for CASSANDRA-243
+d9e69b4024 switch from byte[] to BitSet in CommitLogHeader.  patch by jbellis; reviewed by goffinet for CASSANDRA-237
+5b99a22032 update comments, perform some renames, r/m unused code. patch by jbellis; reviewed by goffinet for CASSANDRA-237
+a0c2b2a380 add CommitLog and RecoveryManager tests.  patch by jbellis; reviewed by goffinet for CASSANDRA-237
+04dcee09ba r/m Row.getColumnFamilyMap.  replaced with Row.getColumnFamily or .getColumnFamilies as appropriate. patch by jbellis; reviewed by Sandeep Tata for CASSANDRA-198
+f116a3e4e5 merge from 0.3 branch
+

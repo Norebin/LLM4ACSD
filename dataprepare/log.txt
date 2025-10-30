@@ -1,0 +1,918 @@
+正在处理: dbeaver-22.3.0
+执行命令: java -jar /model/LiangXJ/DesigniteJava/DesigniteJava.jar -i /model/data/Research/actionableCS/dbeaver/dbeaver-22.3.0 -o /model/data/Research/designitejava/dbeaver/dbeaver-22.3.0
+成功处理 dbeaver-22.3.0
+输出: 27-03-2025 07:51:21: Searching classpath folders ...
+27-03-2025 07:51:21: Could not find any classpath folder.
+DesigniteJava Professional. Version 2.5.10.0
+Copyright (C) 2025 Designite. All rights reserved.
+27-03-2025 07:51:21: Parsing the source code ...
+27-03-2025 07:52:07: Resolving symbols...
+27-03-2025 07:52:34: Computing metrics...
+27-03-2025 07:52:35: Detecting code smells...
+27-03-2025 07:52:41: Detecting cyclic dependency...
+27-03-2025 07:53:46: Detecting architecture smells...
+27-03-2025 07:53:50: Exporting analysis results...
+wrapping up ...
+--Analysis summary--
+	Total LOC analyzed: 336522	Number of packages: 644
+	Number of classes: 5898	Number of methods: 38717
+-Total architecture smell instances detected-
+	Cyclic dependency: 205	God component: 31
+	Ambiguous interface: 0 	Feature concentration: 243
+	Unstable dependency: 132	Scattered functionality: 0
+	Dense structure: 1
+-Total design smell instances detected-
+	Imperative abstraction: 9	Multifaceted abstraction: 9
+	Unnecessary abstraction: 1324	Unutilized abstraction: 3054
+	Feature envy: 46	Deficient encapsulation: 780
+	Unexploited encapsulation: 23	Broken modularization: 164
+	Cyclically-dependent modularization: 205	Hub-like modularization: 33
+	Insufficient modularization: 344	Broken hierarchy: 379
+	Cyclic hierarchy: 22	Deep hierarchy: 0
+	Missing hierarchy: 37	Multipath hierarchy: 7
+	Rebellious hierarchy: 31	Wide hierarchy: 12
+-Total testability smell instances detected-
+	Hard-wired dependency: 0	Global state: 273
+	Excessive dependency: 1038	Law of Demeter violation: 6
+-Total implementation smell instances detected-
+	Abstract function call from constructor: 4	Complex conditional: 892
+	Complex method: 1172	Empty catch clause: 185
+	Long identifier: 281	Long method: 154
+	Long parameter list: 1177	Long statement: 5819
+	Magic number: 5766	Missing default: 299
+-Total test smell instances detected-
+	Assertion roulette: 139	Missing assertion: 14
+	Empty test: 2	Ignored test: 1
+	Constructor initialization: 0	Eager test: 0
+	Exceptional handling: 0	Conditional test logic: 0
+----
+27-03-2025 08:21:04: Done.
+27-03-2025 08:21:04: Total time (sec): 1782
+
+正在处理: dbeaver-5.0.0
+执行命令: java -jar /model/LiangXJ/DesigniteJava/DesigniteJava.jar -i /model/data/Research/actionableCS/dbeaver/dbeaver-5.0.0 -o /model/data/Research/designitejava/dbeaver/dbeaver-5.0.0
+成功处理 dbeaver-5.0.0
+输出: 27-03-2025 08:21:05: Searching classpath folders ...
+27-03-2025 08:21:05: Could not find any classpath folder.
+DesigniteJava Professional. Version 2.5.10.0
+Copyright (C) 2025 Designite. All rights reserved.
+27-03-2025 08:21:05: Parsing the source code ...
+27-03-2025 08:21:36: Resolving symbols...
+27-03-2025 08:21:45: Computing metrics...
+27-03-2025 08:21:46: Detecting code smells...
+27-03-2025 08:21:49: Detecting cyclic dependency...
+27-03-2025 08:22:06: Detecting architecture smells...
+27-03-2025 08:22:09: Exporting analysis results...
+wrapping up ...
+--Analysis summary--
+	Total LOC analyzed: 197458	Number of packages: 355
+	Number of classes: 3378	Number of methods: 22453
+-Total architecture smell instances detected-
+	Cyclic dependency: 135	God component: 18
+	Ambiguous interface: 0 	Feature concentration: 149
+	Unstable dependency: 91	Scattered functionality: 0
+	Dense structure: 1
+-Total design smell instances detected-
+	Imperative abstraction: 3	Multifaceted abstraction: 3
+	Unnecessary abstraction: 801	Unutilized abstraction: 1714
+	Feature envy: 29	Deficient encapsulation: 428
+	Unexploited encapsulation: 13	Broken modularization: 84
+	Cyclically-dependent modularization: 146	Hub-like modularization: 19
+	Insufficient modularization: 194	Broken hierarchy: 251
+	Cyclic hierarchy: 13	Deep hierarchy: 0
+	Missing hierarchy: 22	Multipath hierarchy: 1
+	Rebellious hierarchy: 15	Wide hierarchy: 10
+-Total testability smell instances detected-
+	Hard-wired dependency: 0	Global state: 109
+	Excessive dependency: 535	Law of Demeter violation: 4
+-Total implementation smell instances detected-
+	Abstract function call from constructor: 1	Complex conditional: 434
+	Complex method: 669	Empty catch clause: 133
+	Long identifier: 74	Long method: 86
+	Long parameter list: 308	Long statement: 2530
+	Magic number: 3817	Missing default: 166
+-Total test smell instances detected-
+	Assertion roulette: 4	Missing assertion: 0
+	Empty test: 0	Ignored test: 0
+	Constructor initialization: 0	Eager test: 0
+	Exceptional handling: 0	Conditional test logic: 0
+----
+27-03-2025 08:37:23: Done.
+27-03-2025 08:37:23: Total time (sec): 978
+
+正在处理: dbeaver-6.0.0
+执行命令: java -jar /model/LiangXJ/DesigniteJava/DesigniteJava.jar -i /model/data/Research/actionableCS/dbeaver/dbeaver-6.0.0 -o /model/data/Research/designitejava/dbeaver/dbeaver-6.0.0
+成功处理 dbeaver-6.0.0
+输出: 27-03-2025 08:37:24: Searching classpath folders ...
+27-03-2025 08:37:24: Could not find any classpath folder.
+DesigniteJava Professional. Version 2.5.10.0
+Copyright (C) 2025 Designite. All rights reserved.
+27-03-2025 08:37:25: Parsing the source code ...
+27-03-2025 08:37:59: Resolving symbols...
+27-03-2025 08:38:11: Computing metrics...
+27-03-2025 08:38:12: Detecting code smells...
+27-03-2025 08:38:15: Detecting cyclic dependency...
+27-03-2025 08:38:31: Detecting architecture smells...
+27-03-2025 08:38:34: Exporting analysis results...
+wrapping up ...
+--Analysis summary--
+	Total LOC analyzed: 231454	Number of packages: 432
+	Number of classes: 4017	Number of methods: 26340
+-Total architecture smell instances detected-
+	Cyclic dependency: 148	God component: 19
+	Ambiguous interface: 0 	Feature concentration: 177
+	Unstable dependency: 106	Scattered functionality: 0
+	Dense structure: 1
+-Total design smell instances detected-
+	Imperative abstraction: 7	Multifaceted abstraction: 4
+	Unnecessary abstraction: 951	Unutilized abstraction: 2049
+	Feature envy: 33	Deficient encapsulation: 540
+	Unexploited encapsulation: 14	Broken modularization: 104
+	Cyclically-dependent modularization: 151	Hub-like modularization: 23
+	Insufficient modularization: 230	Broken hierarchy: 281
+	Cyclic hierarchy: 15	Deep hierarchy: 0
+	Missing hierarchy: 25	Multipath hierarchy: 2
+	Rebellious hierarchy: 16	Wide hierarchy: 10
+-Total testability smell instances detected-
+	Hard-wired dependency: 0	Global state: 160
+	Excessive dependency: 670	Law of Demeter violation: 5
+-Total implementation smell instances detected-
+	Abstract function call from constructor: 1	Complex conditional: 522
+	Complex method: 802	Empty catch clause: 150
+	Long identifier: 80	Long method: 94
+	Long parameter list: 395	Long statement: 3309
+	Magic number: 4447	Missing default: 191
+-Total test smell instances detected-
+	Assertion roulette: 5	Missing assertion: 4
+	Empty test: 0	Ignored test: 0
+	Constructor initialization: 0	Eager test: 0
+	Exceptional handling: 0	Conditional test logic: 0
+----
+27-03-2025 09:07:05: Done.
+27-03-2025 09:07:05: Total time (sec): 1780
+
+正在处理: dbeaver-23.3.0
+执行命令: java -jar /model/LiangXJ/DesigniteJava/DesigniteJava.jar -i /model/data/Research/actionableCS/dbeaver/dbeaver-23.3.0 -o /model/data/Research/designitejava/dbeaver/dbeaver-23.3.0
+成功处理 dbeaver-23.3.0
+输出: 27-03-2025 09:07:06: Searching classpath folders ...
+27-03-2025 09:07:06: Could not find any classpath folder.
+DesigniteJava Professional. Version 2.5.10.0
+Copyright (C) 2025 Designite. All rights reserved.
+27-03-2025 09:07:06: Parsing the source code ...
+27-03-2025 09:07:59: Resolving symbols...
+27-03-2025 09:08:37: Computing metrics...
+27-03-2025 09:08:39: Detecting code smells...
+27-03-2025 09:08:46: Detecting cyclic dependency...
+27-03-2025 09:10:11: Detecting architecture smells...
+27-03-2025 09:10:15: Exporting analysis results...
+wrapping up ...
+--Analysis summary--
+	Total LOC analyzed: 369748	Number of packages: 720
+	Number of classes: 6436	Number of methods: 41788
+-Total architecture smell instances detected-
+	Cyclic dependency: 238	God component: 36
+	Ambiguous interface: 0 	Feature concentration: 260
+	Unstable dependency: 154	Scattered functionality: 0
+	Dense structure: 1
+-Total design smell instances detected-
+	Imperative abstraction: 12	Multifaceted abstraction: 9
+	Unnecessary abstraction: 1450	Unutilized abstraction: 3349
+	Feature envy: 49	Deficient encapsulation: 879
+	Unexploited encapsulation: 26	Broken modularization: 193
+	Cyclically-dependent modularization: 219	Hub-like modularization: 35
+	Insufficient modularization: 359	Broken hierarchy: 411
+	Cyclic hierarchy: 24	Deep hierarchy: 0
+	Missing hierarchy: 41	Multipath hierarchy: 7
+	Rebellious hierarchy: 32	Wide hierarchy: 12
+-Total testability smell instances detected-
+	Hard-wired dependency: 0	Global state: 310
+	Excessive dependency: 1126	Law of Demeter violation: 12
+-Total implementation smell instances detected-
+	Abstract function call from constructor: 5	Complex conditional: 995
+	Complex method: 1267	Empty catch clause: 196
+	Long identifier: 359	Long method: 160
+	Long parameter list: 1299	Long statement: 6432
+	Magic number: 6066	Missing default: 317
+-Total test smell instances detected-
+	Assertion roulette: 151	Missing assertion: 16
+	Empty test: 2	Ignored test: 1
+	Constructor initialization: 0	Eager test: 0
+	Exceptional handling: 0	Conditional test logic: 0
+----
+27-03-2025 09:31:30: Done.
+27-03-2025 09:31:30: Total time (sec): 1463
+
+正在处理: dbeaver-24.2.0
+执行命令: java -jar /model/LiangXJ/DesigniteJava/DesigniteJava.jar -i /model/data/Research/actionableCS/dbeaver/dbeaver-24.2.0 -o /model/data/Research/designitejava/dbeaver/dbeaver-24.2.0
+成功处理 dbeaver-24.2.0
+输出: 27-03-2025 09:31:31: Searching classpath folders ...
+27-03-2025 09:31:31: Could not find any classpath folder.
+DesigniteJava Professional. Version 2.5.10.0
+Copyright (C) 2025 Designite. All rights reserved.
+27-03-2025 09:31:32: Parsing the source code ...
+27-03-2025 09:32:29: Resolving symbols...
+27-03-2025 09:33:07: Computing metrics...
+27-03-2025 09:33:08: Detecting code smells...
+27-03-2025 09:33:15: Detecting cyclic dependency...
+27-03-2025 09:34:43: Detecting architecture smells...
+27-03-2025 09:34:46: Exporting analysis results...
+wrapping up ...
+--Analysis summary--
+	Total LOC analyzed: 395849	Number of packages: 774
+	Number of classes: 6889	Number of methods: 44266
+-Total architecture smell instances detected-
+	Cyclic dependency: 242	God component: 39
+	Ambiguous interface: 1 	Feature concentration: 272
+	Unstable dependency: 164	Scattered functionality: 0
+	Dense structure: 1
+-Total design smell instances detected-
+	Imperative abstraction: 12	Multifaceted abstraction: 15
+	Unnecessary abstraction: 1590	Unutilized abstraction: 3628
+	Feature envy: 60	Deficient encapsulation: 951
+	Unexploited encapsulation: 26	Broken modularization: 200
+	Cyclically-dependent modularization: 232	Hub-like modularization: 34
+	Insufficient modularization: 370	Broken hierarchy: 432
+	Cyclic hierarchy: 25	Deep hierarchy: 0
+	Missing hierarchy: 43	Multipath hierarchy: 7
+	Rebellious hierarchy: 32	Wide hierarchy: 12
+-Total testability smell instances detected-
+	Hard-wired dependency: 0	Global state: 354
+	Excessive dependency: 1104	Law of Demeter violation: 9
+-Total implementation smell instances detected-
+	Abstract function call from constructor: 4	Complex conditional: 1055
+	Complex method: 1330	Empty catch clause: 206
+	Long identifier: 394	Long method: 163
+	Long parameter list: 1494	Long statement: 7009
+	Magic number: 6255	Missing default: 295
+-Total test smell instances detected-
+	Assertion roulette: 157	Missing assertion: 21
+	Empty test: 2	Ignored test: 3
+	Constructor initialization: 0	Eager test: 0
+	Exceptional handling: 2	Conditional test logic: 2
+----
+27-03-2025 10:20:14: Done.
+27-03-2025 10:20:14: Total time (sec): 2922
+
+正在处理: dbeaver-5.1.0
+执行命令: java -jar /model/LiangXJ/DesigniteJava/DesigniteJava.jar -i /model/data/Research/actionableCS/dbeaver/dbeaver-5.1.0 -o /model/data/Research/designitejava/dbeaver/dbeaver-5.1.0
+成功处理 dbeaver-5.1.0
+输出: 27-03-2025 10:20:16: Searching classpath folders ...
+27-03-2025 10:20:16: Could not find any classpath folder.
+DesigniteJava Professional. Version 2.5.10.0
+Copyright (C) 2025 Designite. All rights reserved.
+27-03-2025 10:20:16: Parsing the source code ...
+27-03-2025 10:20:46: Resolving symbols...
+27-03-2025 10:20:56: Computing metrics...
+27-03-2025 10:20:57: Detecting code smells...
+27-03-2025 10:20:59: Detecting cyclic dependency...
+27-03-2025 10:21:16: Detecting architecture smells...
+27-03-2025 10:21:19: Exporting analysis results...
+wrapping up ...
+--Analysis summary--
+	Total LOC analyzed: 202891	Number of packages: 368
+	Number of classes: 3490	Number of methods: 22902
+-Total architecture smell instances detected-
+	Cyclic dependency: 142	God component: 18
+	Ambiguous interface: 0 	Feature concentration: 156
+	Unstable dependency: 97	Scattered functionality: 0
+	Dense structure: 1
+-Total design smell instances detected-
+	Imperative abstraction: 5	Multifaceted abstraction: 2
+	Unnecessary abstraction: 826	Unutilized abstraction: 1785
+	Feature envy: 30	Deficient encapsulation: 438
+	Unexploited encapsulation: 13	Broken modularization: 86
+	Cyclically-dependent modularization: 144	Hub-like modularization: 21
+	Insufficient modularization: 194	Broken hierarchy: 258
+	Cyclic hierarchy: 13	Deep hierarchy: 0
+	Missing hierarchy: 23	Multipath hierarchy: 2
+	Rebellious hierarchy: 15	Wide hierarchy: 10
+-Total testability smell instances detected-
+	Hard-wired dependency: 0	Global state: 115
+	Excessive dependency: 557	Law of Demeter violation: 4
+-Total implementation smell instances detected-
+	Abstract function call from constructor: 1	Complex conditional: 446
+	Complex method: 694	Empty catch clause: 137
+	Long identifier: 74	Long method: 84
+	Long parameter list: 336	Long statement: 2673
+	Magic number: 3885	Missing default: 171
+-Total test smell instances detected-
+	Assertion roulette: 4	Missing assertion: 0
+	Empty test: 0	Ignored test: 0
+	Constructor initialization: 0	Eager test: 0
+	Exceptional handling: 0	Conditional test logic: 0
+----
+27-03-2025 10:43:14: Done.
+27-03-2025 10:43:14: Total time (sec): 1377
+
+正在处理: dbeaver-22.1.0
+执行命令: java -jar /model/LiangXJ/DesigniteJava/DesigniteJava.jar -i /model/data/Research/actionableCS/dbeaver/dbeaver-22.1.0 -o /model/data/Research/designitejava/dbeaver/dbeaver-22.1.0
+成功处理 dbeaver-22.1.0
+输出: 27-03-2025 10:43:15: Searching classpath folders ...
+27-03-2025 10:43:15: Could not find any classpath folder.
+DesigniteJava Professional. Version 2.5.10.0
+Copyright (C) 2025 Designite. All rights reserved.
+27-03-2025 10:43:15: Parsing the source code ...
+27-03-2025 10:44:10: Resolving symbols...
+27-03-2025 10:44:37: Computing metrics...
+27-03-2025 10:44:38: Detecting code smells...
+27-03-2025 10:44:44: Detecting cyclic dependency...
+27-03-2025 10:45:40: Detecting architecture smells...
+27-03-2025 10:45:44: Exporting analysis results...
+wrapping up ...
+--Analysis summary--
+	Total LOC analyzed: 326023	Number of packages: 637
+	Number of classes: 5713	Number of methods: 37537
+-Total architecture smell instances detected-
+	Cyclic dependency: 197	God component: 31
+	Ambiguous interface: 0 	Feature concentration: 235
+	Unstable dependency: 129	Scattered functionality: 0
+	Dense structure: 1
+-Total design smell instances detected-
+	Imperative abstraction: 9	Multifaceted abstraction: 9
+	Unnecessary abstraction: 1273	Unutilized abstraction: 2960
+	Feature envy: 50	Deficient encapsulation: 742
+	Unexploited encapsulation: 22	Broken modularization: 147
+	Cyclically-dependent modularization: 197	Hub-like modularization: 32
+	Insufficient modularization: 336	Broken hierarchy: 368
+	Cyclic hierarchy: 20	Deep hierarchy: 0
+	Missing hierarchy: 36	Multipath hierarchy: 7
+	Rebellious hierarchy: 30	Wide hierarchy: 12
+-Total testability smell instances detected-
+	Hard-wired dependency: 0	Global state: 260
+	Excessive dependency: 998	Law of Demeter violation: 8
+-Total implementation smell instances detected-
+	Abstract function call from constructor: 4	Complex conditional: 850
+	Complex method: 1134	Empty catch clause: 183
+	Long identifier: 235	Long method: 149
+	Long parameter list: 1130	Long statement: 5469
+	Magic number: 5676	Missing default: 276
+-Total test smell instances detected-
+	Assertion roulette: 138	Missing assertion: 12
+	Empty test: 2	Ignored test: 1
+	Constructor initialization: 0	Eager test: 0
+	Exceptional handling: 0	Conditional test logic: 0
+----
+27-03-2025 11:04:24: Done.
+27-03-2025 11:04:24: Total time (sec): 1269
+
+正在处理: dbeaver-7.0.0
+执行命令: java -jar /model/LiangXJ/DesigniteJava/DesigniteJava.jar -i /model/data/Research/actionableCS/dbeaver/dbeaver-7.0.0 -o /model/data/Research/designitejava/dbeaver/dbeaver-7.0.0
+成功处理 dbeaver-7.0.0
+输出: 27-03-2025 11:04:25: Searching classpath folders ...
+27-03-2025 11:04:26: Could not find any classpath folder.
+DesigniteJava Professional. Version 2.5.10.0
+Copyright (C) 2025 Designite. All rights reserved.
+27-03-2025 11:04:26: Parsing the source code ...
+27-03-2025 11:05:10: Resolving symbols...
+27-03-2025 11:05:27: Computing metrics...
+27-03-2025 11:05:29: Detecting code smells...
+27-03-2025 11:05:33: Detecting cyclic dependency...
+27-03-2025 11:06:04: Detecting architecture smells...
+27-03-2025 11:06:08: Exporting analysis results...
+wrapping up ...
+--Analysis summary--
+	Total LOC analyzed: 269482	Number of packages: 519
+	Number of classes: 4674	Number of methods: 30648
+-Total architecture smell instances detected-
+	Cyclic dependency: 166	God component: 23
+	Ambiguous interface: 1 	Feature concentration: 206
+	Unstable dependency: 112	Scattered functionality: 0
+	Dense structure: 1
+-Total design smell instances detected-
+	Imperative abstraction: 7	Multifaceted abstraction: 5
+	Unnecessary abstraction: 1061	Unutilized abstraction: 2414
+	Feature envy: 46	Deficient encapsulation: 603
+	Unexploited encapsulation: 19	Broken modularization: 123
+	Cyclically-dependent modularization: 163	Hub-like modularization: 26
+	Insufficient modularization: 266	Broken hierarchy: 302
+	Cyclic hierarchy: 18	Deep hierarchy: 0
+	Missing hierarchy: 33	Multipath hierarchy: 4
+	Rebellious hierarchy: 20	Wide hierarchy: 11
+-Total testability smell instances detected-
+	Hard-wired dependency: 0	Global state: 192
+	Excessive dependency: 804	Law of Demeter violation: 5
+-Total implementation smell instances detected-
+	Abstract function call from constructor: 4	Complex conditional: 605
+	Complex method: 922	Empty catch clause: 149
+	Long identifier: 99	Long method: 115
+	Long parameter list: 834	Long statement: 3861
+	Magic number: 4888	Missing default: 206
+-Total test smell instances detected-
+	Assertion roulette: 91	Missing assertion: 5
+	Empty test: 1	Ignored test: 0
+	Constructor initialization: 0	Eager test: 0
+	Exceptional handling: 0	Conditional test logic: 0
+----
+27-03-2025 11:26:27: Done.
+27-03-2025 11:26:27: Total time (sec): 1321
+
+正在处理: dbeaver-7.1.0
+执行命令: java -jar /model/LiangXJ/DesigniteJava/DesigniteJava.jar -i /model/data/Research/actionableCS/dbeaver/dbeaver-7.1.0 -o /model/data/Research/designitejava/dbeaver/dbeaver-7.1.0
+成功处理 dbeaver-7.1.0
+输出: 27-03-2025 11:26:28: Searching classpath folders ...
+27-03-2025 11:26:28: Could not find any classpath folder.
+DesigniteJava Professional. Version 2.5.10.0
+Copyright (C) 2025 Designite. All rights reserved.
+27-03-2025 11:26:28: Parsing the source code ...
+27-03-2025 11:27:10: Resolving symbols...
+27-03-2025 11:27:32: Computing metrics...
+27-03-2025 11:27:33: Detecting code smells...
+27-03-2025 11:27:37: Detecting cyclic dependency...
+27-03-2025 11:28:12: Detecting architecture smells...
+27-03-2025 11:28:16: Exporting analysis results...
+wrapping up ...
+--Analysis summary--
+	Total LOC analyzed: 274495	Number of packages: 547
+	Number of classes: 4801	Number of methods: 31422
+-Total architecture smell instances detected-
+	Cyclic dependency: 171	God component: 25
+	Ambiguous interface: 0 	Feature concentration: 209
+	Unstable dependency: 114	Scattered functionality: 0
+	Dense structure: 1
+-Total design smell instances detected-
+	Imperative abstraction: 7	Multifaceted abstraction: 5
+	Unnecessary abstraction: 1077	Unutilized abstraction: 2492
+	Feature envy: 48	Deficient encapsulation: 630
+	Unexploited encapsulation: 19	Broken modularization: 124
+	Cyclically-dependent modularization: 170	Hub-like modularization: 27
+	Insufficient modularization: 277	Broken hierarchy: 308
+	Cyclic hierarchy: 17	Deep hierarchy: 0
+	Missing hierarchy: 33	Multipath hierarchy: 4
+	Rebellious hierarchy: 20	Wide hierarchy: 11
+-Total testability smell instances detected-
+	Hard-wired dependency: 0	Global state: 198
+	Excessive dependency: 830	Law of Demeter violation: 5
+-Total implementation smell instances detected-
+	Abstract function call from constructor: 4	Complex conditional: 632
+	Complex method: 945	Empty catch clause: 155
+	Long identifier: 133	Long method: 116
+	Long parameter list: 852	Long statement: 4054
+	Magic number: 4988	Missing default: 213
+-Total test smell instances detected-
+	Assertion roulette: 91	Missing assertion: 5
+	Empty test: 1	Ignored test: 0
+	Constructor initialization: 0	Eager test: 0
+	Exceptional handling: 0	Conditional test logic: 0
+----
+27-03-2025 11:57:21: Done.
+27-03-2025 11:57:21: Total time (sec): 1853
+
+正在处理: dbeaver-3.6.0
+执行命令: java -jar /model/LiangXJ/DesigniteJava/DesigniteJava.jar -i /model/data/Research/actionableCS/dbeaver/dbeaver-3.6.0 -o /model/data/Research/designitejava/dbeaver/dbeaver-3.6.0
+成功处理 dbeaver-3.6.0
+输出: 27-03-2025 11:57:23: Searching classpath folders ...
+27-03-2025 11:57:23: Could not find any classpath folder.
+DesigniteJava Professional. Version 2.5.10.0
+Copyright (C) 2025 Designite. All rights reserved.
+27-03-2025 11:57:23: Parsing the source code ...
+27-03-2025 11:57:45: Resolving symbols...
+27-03-2025 11:57:51: Computing metrics...
+27-03-2025 11:57:51: Detecting code smells...
+27-03-2025 11:57:53: Detecting cyclic dependency...
+27-03-2025 11:58:00: Detecting architecture smells...
+27-03-2025 11:58:05: Exporting analysis results...
+wrapping up ...
+--Analysis summary--
+	Total LOC analyzed: 147503	Number of packages: 250
+	Number of classes: 2519	Number of methods: 16860
+-Total architecture smell instances detected-
+	Cyclic dependency: 108	God component: 14
+	Ambiguous interface: 0 	Feature concentration: 109
+	Unstable dependency: 66	Scattered functionality: 0
+	Dense structure: 1
+-Total design smell instances detected-
+	Imperative abstraction: 0	Multifaceted abstraction: 1
+	Unnecessary abstraction: 612	Unutilized abstraction: 1272
+	Feature envy: 22	Deficient encapsulation: 294
+	Unexploited encapsulation: 9	Broken modularization: 68
+	Cyclically-dependent modularization: 109	Hub-like modularization: 10
+	Insufficient modularization: 150	Broken hierarchy: 179
+	Cyclic hierarchy: 9	Deep hierarchy: 0
+	Missing hierarchy: 16	Multipath hierarchy: 0
+	Rebellious hierarchy: 12	Wide hierarchy: 6
+-Total testability smell instances detected-
+	Hard-wired dependency: 0	Global state: 82
+	Excessive dependency: 357	Law of Demeter violation: 4
+-Total implementation smell instances detected-
+	Abstract function call from constructor: 3	Complex conditional: 348
+	Complex method: 459	Empty catch clause: 103
+	Long identifier: 33	Long method: 52
+	Long parameter list: 212	Long statement: 1487
+	Magic number: 2697	Missing default: 117
+-Total test smell instances detected-
+	Assertion roulette: 0	Missing assertion: 0
+	Empty test: 0	Ignored test: 0
+	Constructor initialization: 0	Eager test: 0
+	Exceptional handling: 0	Conditional test logic: 0
+----
+27-03-2025 12:08:37: Done.
+27-03-2025 12:08:37: Total time (sec): 674
+
+正在处理: dbeaver-23.0.0
+执行命令: java -jar /model/LiangXJ/DesigniteJava/DesigniteJava.jar -i /model/data/Research/actionableCS/dbeaver/dbeaver-23.0.0 -o /model/data/Research/designitejava/dbeaver/dbeaver-23.0.0
+成功处理 dbeaver-23.0.0
+输出: 27-03-2025 12:08:38: Searching classpath folders ...
+27-03-2025 12:08:38: Could not find any classpath folder.
+DesigniteJava Professional. Version 2.5.10.0
+Copyright (C) 2025 Designite. All rights reserved.
+27-03-2025 12:08:38: Parsing the source code ...
+27-03-2025 12:09:28: Resolving symbols...
+27-03-2025 12:09:57: Computing metrics...
+27-03-2025 12:09:58: Detecting code smells...
+27-03-2025 12:10:04: Detecting cyclic dependency...
+27-03-2025 12:11:10: Detecting architecture smells...
+27-03-2025 12:11:13: Exporting analysis results...
+wrapping up ...
+--Analysis summary--
+	Total LOC analyzed: 342255	Number of packages: 668
+	Number of classes: 6008	Number of methods: 39275
+-Total architecture smell instances detected-
+	Cyclic dependency: 213	God component: 31
+	Ambiguous interface: 0 	Feature concentration: 247
+	Unstable dependency: 139	Scattered functionality: 0
+	Dense structure: 1
+-Total design smell instances detected-
+	Imperative abstraction: 10	Multifaceted abstraction: 9
+	Unnecessary abstraction: 1351	Unutilized abstraction: 3101
+	Feature envy: 46	Deficient encapsulation: 800
+	Unexploited encapsulation: 23	Broken modularization: 170
+	Cyclically-dependent modularization: 206	Hub-like modularization: 34
+	Insufficient modularization: 346	Broken hierarchy: 389
+	Cyclic hierarchy: 22	Deep hierarchy: 0
+	Missing hierarchy: 37	Multipath hierarchy: 7
+	Rebellious hierarchy: 31	Wide hierarchy: 12
+-Total testability smell instances detected-
+	Hard-wired dependency: 0	Global state: 280
+	Excessive dependency: 1060	Law of Demeter violation: 6
+-Total implementation smell instances detected-
+	Abstract function call from constructor: 4	Complex conditional: 919
+	Complex method: 1189	Empty catch clause: 186
+	Long identifier: 302	Long method: 155
+	Long parameter list: 1218	Long statement: 5906
+	Magic number: 5838	Missing default: 302
+-Total test smell instances detected-
+	Assertion roulette: 142	Missing assertion: 16
+	Empty test: 2	Ignored test: 1
+	Constructor initialization: 0	Eager test: 0
+	Exceptional handling: 0	Conditional test logic: 0
+----
+27-03-2025 12:39:09: Done.
+27-03-2025 12:39:09: Total time (sec): 1831
+
+正在处理: dbeaver-6.1.0
+执行命令: java -jar /model/LiangXJ/DesigniteJava/DesigniteJava.jar -i /model/data/Research/actionableCS/dbeaver/dbeaver-6.1.0 -o /model/data/Research/designitejava/dbeaver/dbeaver-6.1.0
+成功处理 dbeaver-6.1.0
+输出: 27-03-2025 12:39:11: Searching classpath folders ...
+27-03-2025 12:39:11: Could not find any classpath folder.
+DesigniteJava Professional. Version 2.5.10.0
+Copyright (C) 2025 Designite. All rights reserved.
+27-03-2025 12:39:11: Parsing the source code ...
+27-03-2025 12:39:47: Resolving symbols...
+27-03-2025 12:40:01: Computing metrics...
+27-03-2025 12:40:02: Detecting code smells...
+27-03-2025 12:40:06: Detecting cyclic dependency...
+27-03-2025 12:40:26: Detecting architecture smells...
+27-03-2025 12:40:30: Exporting analysis results...
+wrapping up ...
+--Analysis summary--
+	Total LOC analyzed: 241215	Number of packages: 448
+	Number of classes: 4219	Number of methods: 27472
+-Total architecture smell instances detected-
+	Cyclic dependency: 146	God component: 22
+	Ambiguous interface: 1 	Feature concentration: 186
+	Unstable dependency: 104	Scattered functionality: 0
+	Dense structure: 1
+-Total design smell instances detected-
+	Imperative abstraction: 7	Multifaceted abstraction: 5
+	Unnecessary abstraction: 994	Unutilized abstraction: 2163
+	Feature envy: 33	Deficient encapsulation: 575
+	Unexploited encapsulation: 15	Broken modularization: 113
+	Cyclically-dependent modularization: 146	Hub-like modularization: 23
+	Insufficient modularization: 237	Broken hierarchy: 294
+	Cyclic hierarchy: 15	Deep hierarchy: 0
+	Missing hierarchy: 26	Multipath hierarchy: 2
+	Rebellious hierarchy: 17	Wide hierarchy: 11
+-Total testability smell instances detected-
+	Hard-wired dependency: 0	Global state: 173
+	Excessive dependency: 694	Law of Demeter violation: 6
+-Total implementation smell instances detected-
+	Abstract function call from constructor: 1	Complex conditional: 539
+	Complex method: 847	Empty catch clause: 152
+	Long identifier: 86	Long method: 104
+	Long parameter list: 409	Long statement: 3417
+	Magic number: 4652	Missing default: 199
+-Total test smell instances detected-
+	Assertion roulette: 78	Missing assertion: 5
+	Empty test: 1	Ignored test: 0
+	Constructor initialization: 0	Eager test: 0
+	Exceptional handling: 0	Conditional test logic: 0
+----
+27-03-2025 12:58:58: Done.
+27-03-2025 12:58:58: Total time (sec): 1187
+
+正在处理: dbeaver-3.8.0
+执行命令: java -jar /model/LiangXJ/DesigniteJava/DesigniteJava.jar -i /model/data/Research/actionableCS/dbeaver/dbeaver-3.8.0 -o /model/data/Research/designitejava/dbeaver/dbeaver-3.8.0
+成功处理 dbeaver-3.8.0
+输出: 27-03-2025 12:58:59: Searching classpath folders ...
+27-03-2025 12:58:59: Could not find any classpath folder.
+DesigniteJava Professional. Version 2.5.10.0
+Copyright (C) 2025 Designite. All rights reserved.
+27-03-2025 12:58:59: Parsing the source code ...
+27-03-2025 12:59:25: Resolving symbols...
+27-03-2025 12:59:32: Computing metrics...
+27-03-2025 12:59:33: Detecting code smells...
+27-03-2025 12:59:35: Detecting cyclic dependency...
+27-03-2025 12:59:47: Detecting architecture smells...
+27-03-2025 12:59:51: Exporting analysis results...
+wrapping up ...
+--Analysis summary--
+	Total LOC analyzed: 163853	Number of packages: 287
+	Number of classes: 2817	Number of methods: 18716
+-Total architecture smell instances detected-
+	Cyclic dependency: 115	God component: 15
+	Ambiguous interface: 0 	Feature concentration: 123
+	Unstable dependency: 70	Scattered functionality: 0
+	Dense structure: 1
+-Total design smell instances detected-
+	Imperative abstraction: 0	Multifaceted abstraction: 2
+	Unnecessary abstraction: 689	Unutilized abstraction: 1439
+	Feature envy: 23	Deficient encapsulation: 349
+	Unexploited encapsulation: 10	Broken modularization: 79
+	Cyclically-dependent modularization: 121	Hub-like modularization: 16
+	Insufficient modularization: 164	Broken hierarchy: 213
+	Cyclic hierarchy: 10	Deep hierarchy: 0
+	Missing hierarchy: 19	Multipath hierarchy: 0
+	Rebellious hierarchy: 13	Wide hierarchy: 5
+-Total testability smell instances detected-
+	Hard-wired dependency: 0	Global state: 87
+	Excessive dependency: 434	Law of Demeter violation: 4
+-Total implementation smell instances detected-
+	Abstract function call from constructor: 1	Complex conditional: 362
+	Complex method: 540	Empty catch clause: 114
+	Long identifier: 48	Long method: 63
+	Long parameter list: 234	Long statement: 1804
+	Magic number: 3155	Missing default: 136
+-Total test smell instances detected-
+	Assertion roulette: 0	Missing assertion: 0
+	Empty test: 0	Ignored test: 0
+	Constructor initialization: 0	Eager test: 0
+	Exceptional handling: 0	Conditional test logic: 0
+----
+27-03-2025 13:10:41: Done.
+27-03-2025 13:10:41: Total time (sec): 702
+
+正在处理: dbeaver-21.1.0
+执行命令: java -jar /model/LiangXJ/DesigniteJava/DesigniteJava.jar -i /model/data/Research/actionableCS/dbeaver/dbeaver-21.1.0 -o /model/data/Research/designitejava/dbeaver/dbeaver-21.1.0
+成功处理 dbeaver-21.1.0
+输出: 27-03-2025 13:10:42: Searching classpath folders ...
+27-03-2025 13:10:42: Could not find any classpath folder.
+DesigniteJava Professional. Version 2.5.10.0
+Copyright (C) 2025 Designite. All rights reserved.
+27-03-2025 13:10:43: Parsing the source code ...
+27-03-2025 13:11:27: Resolving symbols...
+27-03-2025 13:11:51: Computing metrics...
+27-03-2025 13:11:53: Detecting code smells...
+27-03-2025 13:11:58: Detecting cyclic dependency...
+27-03-2025 13:12:39: Detecting architecture smells...
+27-03-2025 13:12:43: Exporting analysis results...
+wrapping up ...
+--Analysis summary--
+	Total LOC analyzed: 295865	Number of packages: 574
+	Number of classes: 5163	Number of methods: 33902
+-Total architecture smell instances detected-
+	Cyclic dependency: 178	God component: 26
+	Ambiguous interface: 0 	Feature concentration: 218
+	Unstable dependency: 118	Scattered functionality: 0
+	Dense structure: 1
+-Total design smell instances detected-
+	Imperative abstraction: 9	Multifaceted abstraction: 7
+	Unnecessary abstraction: 1152	Unutilized abstraction: 2677
+	Feature envy: 46	Deficient encapsulation: 663
+	Unexploited encapsulation: 20	Broken modularization: 129
+	Cyclically-dependent modularization: 176	Hub-like modularization: 30
+	Insufficient modularization: 307	Broken hierarchy: 335
+	Cyclic hierarchy: 19	Deep hierarchy: 0
+	Missing hierarchy: 35	Multipath hierarchy: 7
+	Rebellious hierarchy: 22	Wide hierarchy: 12
+-Total testability smell instances detected-
+	Hard-wired dependency: 0	Global state: 228
+	Excessive dependency: 909	Law of Demeter violation: 6
+-Total implementation smell instances detected-
+	Abstract function call from constructor: 4	Complex conditional: 742
+	Complex method: 1035	Empty catch clause: 175
+	Long identifier: 173	Long method: 137
+	Long parameter list: 971	Long statement: 4725
+	Magic number: 5292	Missing default: 235
+-Total test smell instances detected-
+	Assertion roulette: 108	Missing assertion: 9
+	Empty test: 2	Ignored test: 0
+	Constructor initialization: 0	Eager test: 0
+	Exceptional handling: 0	Conditional test logic: 0
+----
+27-03-2025 13:44:35: Done.
+27-03-2025 13:44:35: Total time (sec): 2032
+
+正在处理: dbeaver-23.1.0
+执行命令: java -jar /model/LiangXJ/DesigniteJava/DesigniteJava.jar -i /model/data/Research/actionableCS/dbeaver/dbeaver-23.1.0 -o /model/data/Research/designitejava/dbeaver/dbeaver-23.1.0
+成功处理 dbeaver-23.1.0
+输出: 27-03-2025 13:44:36: Searching classpath folders ...
+27-03-2025 13:44:36: Could not find any classpath folder.
+DesigniteJava Professional. Version 2.5.10.0
+Copyright (C) 2025 Designite. All rights reserved.
+27-03-2025 13:44:36: Parsing the source code ...
+27-03-2025 13:45:30: Resolving symbols...
+27-03-2025 13:46:00: Computing metrics...
+27-03-2025 13:46:02: Detecting code smells...
+27-03-2025 13:46:08: Detecting cyclic dependency...
+27-03-2025 13:47:17: Detecting architecture smells...
+27-03-2025 13:47:20: Exporting analysis results...
+wrapping up ...
+--Analysis summary--
+	Total LOC analyzed: 349897	Number of packages: 690
+	Number of classes: 6203	Number of methods: 40153
+-Total architecture smell instances detected-
+	Cyclic dependency: 213	God component: 31
+	Ambiguous interface: 0 	Feature concentration: 256
+	Unstable dependency: 142	Scattered functionality: 0
+	Dense structure: 1
+-Total design smell instances detected-
+	Imperative abstraction: 11	Multifaceted abstraction: 8
+	Unnecessary abstraction: 1399	Unutilized abstraction: 3220
+	Feature envy: 46	Deficient encapsulation: 839
+	Unexploited encapsulation: 26	Broken modularization: 182
+	Cyclically-dependent modularization: 210	Hub-like modularization: 35
+	Insufficient modularization: 349	Broken hierarchy: 400
+	Cyclic hierarchy: 25	Deep hierarchy: 0
+	Missing hierarchy: 40	Multipath hierarchy: 7
+	Rebellious hierarchy: 31	Wide hierarchy: 12
+-Total testability smell instances detected-
+	Hard-wired dependency: 0	Global state: 297
+	Excessive dependency: 1072	Law of Demeter violation: 12
+-Total implementation smell instances detected-
+	Abstract function call from constructor: 4	Complex conditional: 943
+	Complex method: 1217	Empty catch clause: 189
+	Long identifier: 320	Long method: 156
+	Long parameter list: 1250	Long statement: 6057
+	Magic number: 5900	Missing default: 312
+-Total test smell instances detected-
+	Assertion roulette: 149	Missing assertion: 16
+	Empty test: 2	Ignored test: 1
+	Constructor initialization: 0	Eager test: 0
+	Exceptional handling: 0	Conditional test logic: 0
+----
+27-03-2025 14:04:41: Done.
+27-03-2025 14:04:41: Total time (sec): 1204
+
+正在处理: dbeaver-3.7.0
+执行命令: java -jar /model/LiangXJ/DesigniteJava/DesigniteJava.jar -i /model/data/Research/actionableCS/dbeaver/dbeaver-3.7.0 -o /model/data/Research/designitejava/dbeaver/dbeaver-3.7.0
+成功处理 dbeaver-3.7.0
+输出: 27-03-2025 14:04:42: Searching classpath folders ...
+27-03-2025 14:04:42: Could not find any classpath folder.
+DesigniteJava Professional. Version 2.5.10.0
+Copyright (C) 2025 Designite. All rights reserved.
+27-03-2025 14:04:42: Parsing the source code ...
+27-03-2025 14:05:05: Resolving symbols...
+27-03-2025 14:05:11: Computing metrics...
+27-03-2025 14:05:12: Detecting code smells...
+27-03-2025 14:05:13: Detecting cyclic dependency...
+27-03-2025 14:05:22: Detecting architecture smells...
+27-03-2025 14:05:26: Exporting analysis results...
+wrapping up ...
+--Analysis summary--
+	Total LOC analyzed: 154760	Number of packages: 262
+	Number of classes: 2612	Number of methods: 17420
+-Total architecture smell instances detected-
+	Cyclic dependency: 111	God component: 15
+	Ambiguous interface: 0 	Feature concentration: 112
+	Unstable dependency: 69	Scattered functionality: 0
+	Dense structure: 1
+-Total design smell instances detected-
+	Imperative abstraction: 0	Multifaceted abstraction: 2
+	Unnecessary abstraction: 641	Unutilized abstraction: 1328
+	Feature envy: 25	Deficient encapsulation: 318
+	Unexploited encapsulation: 9	Broken modularization: 73
+	Cyclically-dependent modularization: 115	Hub-like modularization: 13
+	Insufficient modularization: 153	Broken hierarchy: 196
+	Cyclic hierarchy: 9	Deep hierarchy: 0
+	Missing hierarchy: 16	Multipath hierarchy: 0
+	Rebellious hierarchy: 12	Wide hierarchy: 5
+-Total testability smell instances detected-
+	Hard-wired dependency: 0	Global state: 83
+	Excessive dependency: 386	Law of Demeter violation: 4
+-Total implementation smell instances detected-
+	Abstract function call from constructor: 3	Complex conditional: 341
+	Complex method: 498	Empty catch clause: 101
+	Long identifier: 34	Long method: 57
+	Long parameter list: 220	Long statement: 1593
+	Magic number: 2949	Missing default: 122
+-Total test smell instances detected-
+	Assertion roulette: 0	Missing assertion: 0
+	Empty test: 0	Ignored test: 0
+	Constructor initialization: 0	Eager test: 0
+	Exceptional handling: 0	Conditional test logic: 0
+----
+27-03-2025 14:14:04: Done.
+27-03-2025 14:14:04: Total time (sec): 562
+
+正在处理: dbeaver-6.3.0
+执行命令: java -jar /model/LiangXJ/DesigniteJava/DesigniteJava.jar -i /model/data/Research/actionableCS/dbeaver/dbeaver-6.3.0 -o /model/data/Research/designitejava/dbeaver/dbeaver-6.3.0
+成功处理 dbeaver-6.3.0
+输出: 27-03-2025 14:14:05: Searching classpath folders ...
+27-03-2025 14:14:05: Could not find any classpath folder.
+DesigniteJava Professional. Version 2.5.10.0
+Copyright (C) 2025 Designite. All rights reserved.
+27-03-2025 14:14:05: Parsing the source code ...
+27-03-2025 14:14:46: Resolving symbols...
+27-03-2025 14:15:01: Computing metrics...
+27-03-2025 14:15:02: Detecting code smells...
+27-03-2025 14:15:06: Detecting cyclic dependency...
+27-03-2025 14:15:27: Detecting architecture smells...
+27-03-2025 14:15:31: Exporting analysis results...
+wrapping up ...
+--Analysis summary--
+	Total LOC analyzed: 257262	Number of packages: 495
+	Number of classes: 4494	Number of methods: 29404
+-Total architecture smell instances detected-
+	Cyclic dependency: 152	God component: 22
+	Ambiguous interface: 1 	Feature concentration: 199
+	Unstable dependency: 109	Scattered functionality: 0
+	Dense structure: 1
+-Total design smell instances detected-
+	Imperative abstraction: 7	Multifaceted abstraction: 3
+	Unnecessary abstraction: 1050	Unutilized abstraction: 2317
+	Feature envy: 41	Deficient encapsulation: 597
+	Unexploited encapsulation: 18	Broken modularization: 121
+	Cyclically-dependent modularization: 156	Hub-like modularization: 24
+	Insufficient modularization: 257	Broken hierarchy: 294
+	Cyclic hierarchy: 18	Deep hierarchy: 0
+	Missing hierarchy: 30	Multipath hierarchy: 3
+	Rebellious hierarchy: 19	Wide hierarchy: 11
+-Total testability smell instances detected-
+	Hard-wired dependency: 0	Global state: 187
+	Excessive dependency: 739	Law of Demeter violation: 5
+-Total implementation smell instances detected-
+	Abstract function call from constructor: 2	Complex conditional: 573
+	Complex method: 889	Empty catch clause: 149
+	Long identifier: 86	Long method: 114
+	Long parameter list: 545	Long statement: 3708
+	Magic number: 4787	Missing default: 202
+-Total test smell instances detected-
+	Assertion roulette: 90	Missing assertion: 5
+	Empty test: 1	Ignored test: 0
+	Constructor initialization: 0	Eager test: 0
+	Exceptional handling: 0	Conditional test logic: 0
+----
+27-03-2025 14:40:25: Done.
+27-03-2025 14:40:25: Total time (sec): 1579
+
+正在处理: dbeaver-4.2.0
+执行命令: java -jar /model/LiangXJ/DesigniteJava/DesigniteJava.jar -i /model/data/Research/actionableCS/dbeaver/dbeaver-4.2.0 -o /model/data/Research/designitejava/dbeaver/dbeaver-4.2.0
+成功处理 dbeaver-4.2.0
+输出: 27-03-2025 14:40:25: Searching classpath folders ...
+27-03-2025 14:40:26: Could not find any classpath folder.
+DesigniteJava Professional. Version 2.5.10.0
+Copyright (C) 2025 Designite. All rights reserved.
+27-03-2025 14:40:26: Parsing the source code ...
+27-03-2025 14:40:53: Resolving symbols...
+27-03-2025 14:41:00: Computing metrics...
+27-03-2025 14:41:01: Detecting code smells...
+27-03-2025 14:41:03: Detecting cyclic dependency...
+27-03-2025 14:41:16: Detecting architecture smells...
+27-03-2025 14:41:20: Exporting analysis results...
+wrapping up ...
+--Analysis summary--
+	Total LOC analyzed: 182924	Number of packages: 317
+	Number of classes: 3129	Number of methods: 20801
+-Total architecture smell instances detected-
+	Cyclic dependency: 126	God component: 18
+	Ambiguous interface: 0 	Feature concentration: 142
+	Unstable dependency: 88	Scattered functionality: 0
+	Dense structure: 1
+-Total design smell instances detected-
+	Imperative abstraction: 3	Multifaceted abstraction: 2
+	Unnecessary abstraction: 765	Unutilized abstraction: 1616
+	Feature envy: 24	Deficient encapsulation: 385
+	Unexploited encapsulation: 11	Broken modularization: 80
+	Cyclically-dependent modularization: 136	Hub-like modularization: 17
+	Insufficient modularization: 181	Broken hierarchy: 235
+	Cyclic hierarchy: 11	Deep hierarchy: 0
+	Missing hierarchy: 21	Multipath hierarchy: 1
+	Rebellious hierarchy: 16	Wide hierarchy: 9
+-Total testability smell instances detected-
+	Hard-wired dependency: 0	Global state: 94
+	Excessive dependency: 480	Law of Demeter violation: 4
+-Total implementation smell instances detected-
+	Abstract function call from constructor: 1	Complex conditional: 407
+	Complex method: 607	Empty catch clause: 121
+	Long identifier: 59	Long method: 76
+	Long parameter list: 274	Long statement: 2095
+	Magic number: 3595	Missing default: 151
+-Total test smell instances detected-
+	Assertion roulette: 0	Missing assertion: 0
+	Empty test: 0	Ignored test: 0
+	Constructor initialization: 0	Eager test: 0
+	Exceptional handling: 0	Conditional test logic: 0
+----
+27-03-2025 14:52:18: Done.
+27-03-2025 14:52:18: Total time (sec): 712
+
