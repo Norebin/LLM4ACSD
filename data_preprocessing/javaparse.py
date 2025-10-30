@@ -23,7 +23,7 @@ class StringUtil {
     }
 }
 '''
-JAR_PATH = "/model/lxj/cfexplainer/code smell/javaparser-core-3.26.2.jar"
+JAR_PATH = "/model/lxj/code smell/javaparser-core-3.26.2.jar"
 # jpype.startJVM(classpath=[JAR_PATH])
 code_lines = code.splitlines()
 drop_comment = re.sub(r'(?s)/\*.*?\*/|//.*?$|/\*\*.*?\*/', '', code, flags=re.MULTILINE | re.DOTALL)
@@ -98,3 +98,4 @@ if __name__ == "__main__":
     extracted_method = extract_method_from_java_file(java_file_path, method_name)
     print(extracted_method)
     # extract_method_code('', 'serializedSize')
+
