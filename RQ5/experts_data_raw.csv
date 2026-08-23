@@ -1,0 +1,201 @@
+Instance ID,LLM4ACSD,Expert1,Expert2,Expert3,Expert4,Expert5
+001,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+002,Actionable,Not Necessary,Not Necessary,Highly Recommended,Not Necessary,Not Necessary
+003,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+004,Actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Highly Recommended
+005,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+006,Actionable,Optional,Optional,Optional,Optional,Highly Recommended
+007,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+008,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+009,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+010,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+011,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+012,Actionable,Not Necessary,Not Necessary,Not Necessary,Highly Recommended,Not Necessary
+013,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+014,Non-actionable,Optional,Optional,Optional,Optional,Optional
+015,Non-actionable,Optional,Optional,Optional,Optional,Optional
+016,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+017,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+018,Actionable,Not Necessary,Not Necessary,Not Necessary,Highly Recommended,Not Necessary
+019,Actionable,Optional,Optional,Optional,Highly Recommended,Optional
+020,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+021,Actionable,Not Necessary,Not Necessary,Highly Recommended,Not Necessary,Not Necessary
+022,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+023,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+024,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+025,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+026,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+027,Non-actionable,Optional,Optional,Optional,Optional,Optional
+028,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+029,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+030,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+031,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+032,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+033,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+034,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+035,Non-actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+036,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+037,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Optional,Not Necessary
+038,Actionable,Optional,Optional,Optional,Highly Recommended,Optional
+039,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+040,Non-actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+041,Actionable,Not Necessary,Not Necessary,Not Necessary,Highly Recommended,Not Necessary
+042,Actionable,Optional,Optional,Highly Recommended,Optional,Optional
+043,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+044,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+045,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+046,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+047,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+048,Non-actionable,Optional,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+049,Actionable,Not Necessary,Not Necessary,Highly Recommended,Not Necessary,Not Necessary
+050,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+051,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+052,Non-actionable,Optional,Optional,Optional,Optional,Optional
+053,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+054,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+055,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+056,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+057,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+058,Actionable,Not Necessary,Not Necessary,Highly Recommended,Not Necessary,Not Necessary
+059,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+060,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+061,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+062,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+063,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+064,Actionable,Highly Recommended,Optional,Highly Recommended,Optional,Optional
+065,Actionable,Optional,Optional,Optional,Highly Recommended,Optional
+066,Actionable,Not Necessary,Not Necessary,Highly Recommended,Not Necessary,Not Necessary
+067,Actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Highly Recommended
+068,Actionable,Not Necessary,Not Necessary,Not Necessary,Highly Recommended,Not Necessary
+069,Non-actionable,Optional,Optional,Optional,Optional,Optional
+070,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+071,Actionable,Not Necessary,Not Necessary,Not Necessary,Highly Recommended,Not Necessary
+072,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+073,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+074,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+075,Non-actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+076,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+077,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+078,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+079,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+080,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+081,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+082,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+083,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+084,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+085,Actionable,Not Necessary,Not Necessary,Highly Recommended,Not Necessary,Not Necessary
+086,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+087,Non-actionable,Optional,Optional,Optional,Optional,Optional
+088,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+089,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+090,Actionable,Not Necessary,Not Necessary,Not Necessary,Highly Recommended,Not Necessary
+091,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+092,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+093,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+094,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+095,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+096,Actionable,Optional,Optional,Optional,Highly Recommended,Optional
+097,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+098,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+099,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+100,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+101,Non-actionable,Not Necessary,Highly Recommended,Not Necessary,Not Necessary,Highly Recommended
+102,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+103,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+104,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+105,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+106,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+107,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+108,Non-actionable,Highly Recommended,Highly Recommended,Not Necessary,Not Necessary,Highly Recommended
+109,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+110,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+111,Actionable,Highly Recommended,Optional,Optional,Optional,Optional
+112,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+113,Actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Highly Recommended
+114,Non-actionable,Optional,Highly Recommended,Optional,Optional,Highly Recommended
+115,Non-actionable,Optional,Optional,Optional,Not Necessary,Not Necessary
+116,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+117,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+118,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+119,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+120,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+121,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+122,Actionable,Highly Recommended,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+123,Non-actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+124,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+125,Non-actionable,Optional,Optional,Optional,Optional,Optional
+126,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+127,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+128,Non-actionable,Not Necessary,Optional,Not Necessary,Optional,Optional
+129,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+130,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+131,Non-actionable,Optional,Highly Recommended,Optional,Highly Recommended,Highly Recommended
+132,Actionable,Optional,Optional,Optional,Optional,Highly Recommended
+133,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+134,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+135,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+136,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+137,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+138,Non-actionable,Optional,Optional,Optional,Optional,Optional
+139,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+140,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+141,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+142,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+143,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+144,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+145,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+146,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Optional,Not Necessary
+147,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+148,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Highly Recommended,Highly Recommended
+149,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+150,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+151,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+152,Non-actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+153,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+154,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+155,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+156,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+157,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+158,Actionable,Not Necessary,Not Necessary,Not Necessary,Highly Recommended,Not Necessary
+159,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+160,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+161,Actionable,Optional,Optional,Optional,Highly Recommended,Optional
+162,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+163,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+164,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+165,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+166,Non-actionable,Highly Recommended,Highly Recommended,Optional,Optional,Highly Recommended
+167,Non-actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+168,Non-actionable,Highly Recommended,Optional,Optional,Optional,Highly Recommended
+169,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+170,Non-actionable,Not Necessary,Highly Recommended,Not Necessary,Not Necessary,Highly Recommended
+171,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+172,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+173,Non-actionable,Optional,Optional,Optional,Optional,Optional
+174,Actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Highly Recommended
+175,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+176,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+177,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+178,Actionable,Optional,Optional,Optional,Optional,Highly Recommended
+179,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+180,Actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Highly Recommended
+181,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+182,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+183,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+184,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+185,Actionable,Not Necessary,Not Necessary,Highly Recommended,Not Necessary,Not Necessary
+186,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+187,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+188,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+189,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+190,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Optional,Not Necessary
+191,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+192,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+193,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+194,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+195,Actionable,Highly Recommended,Optional,Not Necessary,Optional,Optional
+196,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+197,Actionable,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended,Highly Recommended
+198,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+199,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
+200,Non-actionable,Not Necessary,Not Necessary,Not Necessary,Not Necessary,Not Necessary
